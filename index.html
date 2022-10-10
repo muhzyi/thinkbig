@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Cameron Filmography</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/4809746632.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="films.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-sharp fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li id="home"><a href="#home">HOME</a></li>
+                    <li><a href="#about-us">ABOUT</a></li>
+                    <li><a href="#filmography">FILMOGRAPHY</a></li>
+                    <li><a href="https://filmustage.com/blog/innovative-director-james-cameron/">BLOG</a></li>
+                    <li><a href="#contact1">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-sharp fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+   <div class="text-box">
+    <h1>James Cameron</h1>
+    <p>Pick up a camera. Shoot something. No matter how small, no matter how cheesy. Put your name on it as a director.<br>Now you're a director.</p>
+    <a href="https://www.imdb.com/name/nm0000116/" class="hero-btn">Click here to discover</a>
+   </div>
+        
+    </section>
+
+    <!-----------course------------>
+
+    <section class="course">
+        <h1 id="filmography">Filmography</h1>
+        <p>Director and writer of incredibly profound films for over 25 years, James Cameron has a way of connecting with audiences whilst simultaneously making his own dreams come to fruition. Oftentimes referenced as a visionary, and highly creative, he is known for creating such classic, blockbuster movies as Titanic, Terminator, Avatar, and Aliens. As we all know, these are the kinds of movies that stick around for generations to come with people quoting and referencing the many fabulous elements each has to offer. Besides being what we know him to be, he is also a movie industry innovator who started his own companies that strive to create new ways to capture great stories on film.</p>
+
+    </section>
+    <div class="film1">
+        
+        <h2>True Lies</h2>
+        <p class="info"><b>Year</b><br>1994<br><br><b>Genre</b><br>Action, Comedy
+            <br><br>
+            <b>Stars</b><br>Arnold Schwarzenegger,<br>Jamie Lee Curtis<br><br>
+            <b>Directed by</b><br>James Cameron
+        </p>
+        <div class="movie1"></div>
+        
+    </div>
+    <div class="film1">
+        
+        <h2 class="head1">Avatar</h2>
+        <p class="info2"><b>Year</b><br>2009<br><br><b>Genre</b><br>Sci-fi, Action
+            <br><br>
+            <b>Stars</b><br>Sam Worthington,<br>Sigourney Weaver<br><br>
+            <b>Directed by</b><br>James Cameron
+        </p>
+        <div class="movie2"></div>
+        
+    </div>
+    <div class="film1">
+        
+        <h2 class="head2">The Terminator</h2>
+        <p class="info3"><b>Year</b><br>1984<br><br><b>Genre</b><br>Sci-fi, Action
+            <br><br>
+            <b>Stars</b><br>Arnold Schwarzenegger,<br>Linda Hamilton<br><br>
+            <b>Directed by</b><br>James Cameron
+        </p>
+        <div class="movie3"></div>
+        
+    </div>
+
+    <div class="film1">
+        
+        <h2 class="head3">Aliens</h2>
+        <p class="info4"><b>Year</b><br>1986<br><br><b>Genre</b><br>Sci-fi, Action
+            <br><br>
+            <b>Stars</b><br>Sigourney Weaver,<br>Michael Biehn<br><br>
+            <b>Directed by</b><br>James Cameron
+        </p>
+        <div class="movie4"></div>
+        
+    </div>
+
+    <div class="film1">
+        
+        <h2 class="head4">Titanic</h2>
+        <p class="info5"><b>Year</b><br>1997<br><br><b>Genre</b><br>Romance, Drama
+            <br><br>
+            <b>Stars</b><br>Leonardo DiCaprio,<br>Kate Winslet<br><br>
+            <b>Directed by</b><br>James Cameron
+        </p>
+        <div class="movie5"></div>
+        
+    </div>
+
+    <div class="film1">
+        
+        <h2 class="head5">Terminator 2: Judgment Day</h2>
+        <p class="info6"><b>Year</b><br>1991<br><br><b>Genre</b><br>Action, Sci-fi
+            <br><br>
+            <b>Stars</b><br>Arnold Schwarzenegger,<br>Linda Hamilton<br><br>
+            <b>Directed by</b><br>James Cameron
+        </p>
+        <div class="movie6"></div>
+        </div>
+        <section class="contact">
+            <h1 id="contact1">Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+            <a href="./contact.html" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <section class="footer">
+            <h4 id="about-us">About Us</h4>
+            <p>We work together to design, create and produce work that we are proud of for folks that we believe in. We are availible for hire in a wide range of creative<br>disciplines for a variety  of jobs, projects and gigs. </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Designed by Muhsin</p>
+        </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+    </script>
+</body>
+</html>

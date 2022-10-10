@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wall{
+    width: 100%;
+    height: 450px;
+    background-image: url(contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+h1{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Pacifico', cursive;
+    font-weight: lighter;
+    font-size: 70px;
+    color: white;
+}
+.one{
+    display: flex;
+    justify-content: end;
+    position: relative;
+
+}
+.meet{
+    background: #EB5F2E;
+    width: 45%;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.pitch{
+    background-image:linear-gradient(rgba(201, 42, 74,0.6),rgba(201, 42, 74,0.6)),url(bgg.jpg);
+    background-size: cover;
+    background-position: top;
+    width: 55%;
+    height: 300px;
+    position: relative;
+    
+}
+h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.fa{
+    margin-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+   font-style:normal;
+    padding: 15px;
+    font-size: 9px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
